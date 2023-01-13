@@ -9,3 +9,12 @@ The GUI offers the possibility of choosing a random image among the ones in the 
 
 I wanted to make the GUI applicable in a real world scenario. That’s why I decided to give the option to the users of adding their own pictures to the available training set (to register a new individual in the database) or of pre- dicting the identity of an image that is not in the initial test set (more than one image may be necessary to find a significant match in the training set). Every new image sent by the user will be preprocessed so that it is resized to the size of the rest of images in the database.
 
+### faces.m
+Contains the main code that implements the user interface and interacts with the user.
+
+### faces.fig
+Design of the GUI figure.
+
+### test.m
+Script that predicts the identity of 15 test images a total of 50 times and measures the accuracy of the algorithm.
+
